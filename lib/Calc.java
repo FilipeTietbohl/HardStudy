@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class StudyMethos {
+public class Calc {
   public static void main(String[] args) {
     Scanner numeros = new Scanner(System.in);
 
@@ -15,7 +15,7 @@ public class StudyMethos {
 
     switch (resposta) {
       case 1:
-        soma(numero1, numero2);    
+        soma(numero1, numero2);  
       break;
       case 2:
         subtração(numero1, numero2);
