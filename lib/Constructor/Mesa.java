@@ -12,5 +12,12 @@ public class Mesa {
     this.material = material;
     this.idade = idade;
   }
-    
-}
+
+  @Override 
+  public String toString(){
+    return this.nome + " " + this.quantidadePernas + " " + this.material + " " + this.idade;
+  }
+};
+
+//To usando o @Override pra conseguir imprimir o conteúdo do objeto.
+//To fazendo basicamente um getter ...
