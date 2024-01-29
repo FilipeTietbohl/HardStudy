@@ -9,7 +9,7 @@ public class Portaria {
     System.out.println("Qual seu CPF?");
     String resposta = sc.nextLine();
     pessoa1.setCPF(resposta);
-    sc.close();
+    sc.close(); 
     System.out.println(pessoa1.getCPF());
 
   }  
