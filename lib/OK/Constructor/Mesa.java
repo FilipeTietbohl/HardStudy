@@ -1,4 +1,4 @@
-package Constructor;
+package OK.Constructor;
 
 public class Mesa {
   private String nome;

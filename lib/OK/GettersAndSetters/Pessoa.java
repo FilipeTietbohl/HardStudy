@@ -1,4 +1,4 @@
-package GettersAndSetters;
+package OK.GettersAndSetters;
 public class Pessoa{
   private String nome;
   private int idade;
@@ -28,5 +28,9 @@ public class Pessoa{
 
   public void setSexo(String newSexo){
     sexo = newSexo;
+  }
+
+  public String Maiusculo(String nome){
+    return nome.toUpperCase();
   }
 }

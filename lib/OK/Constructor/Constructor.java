@@ -1,4 +1,4 @@
-package Constructor;
+package OK.Constructor;
 public class Constructor {
   public static void main(String[] args) {
     Mesa gamer = new Mesa("MesaGamer", 4, "Ferro", 5);
